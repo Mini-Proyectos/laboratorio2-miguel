@@ -9,7 +9,7 @@ def MergeSort(A, p, r):
 
 def Merge(A, p, q, r):
 	L = A[p:q+1]			#Creamos un arreglo L que contiene la primera mitad de A
-	R = A[q+1:r+1]			#Creamos un arreglo L que contiene la segunda mitad de A
+	R = A[q+1:r+1]			#Creamos un arreglo R que contiene la segunda mitad de A
 							#Centinelas de L y R
 	L.append(float('inf'))
 	R.append(float('inf'))
